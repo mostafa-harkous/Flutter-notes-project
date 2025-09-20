@@ -41,3 +41,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter SDK managed by FVM
+.fvm/
+
+# But keep the config file so version is tracked
+!.fvm/fvm_config.json
+
+# VSCode FVM settings 
+.vscode/settings.json
